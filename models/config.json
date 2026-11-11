@@ -1,0 +1,15 @@
+{
+  "C": 0.01,
+  "threshold": 0.5,
+  "margin": 0.0,
+  "seed": 42,
+  "training": "L2 multinomial logistic regression, balanced class weights, max_iter 2000; frozen ImageNet backbone",
+  "known_classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic"
+  ],
+  "split_seed": "split-20261111"
+}
