@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+runtime/
+data/
+models/*.onnx
+models/*.pt
+samples/coco-*.jpg
+torch-cache/
+ultralytics-config/
+detection-evaluation/
+waste-evaluation/
+control-evaluation/
+.DS_Store
+extra-evaluation/

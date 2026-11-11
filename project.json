@@ -1,0 +1,8 @@
+{
+  "id": "waste-sorting-ai",
+  "kind": "waste",
+  "title": "Waste sorting and bin monitor",
+  "port": 8813,
+  "contact": "abhijithviswanathan03@gmail.com",
+  "status": "Raspberry Pi targeted; desktop simulation tested"
+}
