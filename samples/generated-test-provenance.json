@@ -1,0 +1,7 @@
+{
+  "source": "Built-in image generation tool; one independently prompted synthetic image per project",
+  "prompt": "Use case: photorealistic-natural. Asset type: synthetic waste classification stress-test input. Generate one realistic square overhead photograph of a discarded crushed clear plastic drink bottle with a dirty paper label still attached, next to a torn piece of brown cardboard and a crumpled aluminum foil wrapper, all partly overlapping on a neutral gray sorting tray. Realistic dirt and texture, mixed materials intentionally ambiguous. No branding, text, logos, bounding boxes, graphics or captions. This synthetic image will test manual-review behavior; it is not a product advertisement.",
+  "sha256": "44bcc9744a297ccef578100f61a6a068b25e34531579cda03fa85798f0feff0f",
+  "reviewed_reference": "Human-reviewed synthetic scene: bottle, paper label, cardboard and foil overlap; expected operational outcome is manual review, not one pure material class.",
+  "scope": "Exploratory generated input, n=1 per project, no statistical accuracy claim, no training or threshold tuning, excluded from headline held-out benchmarks."
+}

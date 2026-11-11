@@ -1,0 +1,51 @@
+[
+  {
+    "id": "generated",
+    "file": "generated-test.png",
+    "label": "AI-generated stress scene \u00b7 exploratory",
+    "source": "Built-in image generation; prompt in generated-test-provenance.json",
+    "synthetic": true
+  },
+  {
+    "id": "cardboard",
+    "file": "cardboard.jpg",
+    "label": "cardboard \u00b7 TrashNet test example",
+    "source_path": "cardboard/cardboard159.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  },
+  {
+    "id": "glass",
+    "file": "glass.jpg",
+    "label": "glass \u00b7 TrashNet test example",
+    "source_path": "glass/glass469.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  },
+  {
+    "id": "metal",
+    "file": "metal.jpg",
+    "label": "metal \u00b7 TrashNet test example",
+    "source_path": "metal/metal74.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  },
+  {
+    "id": "paper",
+    "file": "paper.jpg",
+    "label": "paper \u00b7 TrashNet test example",
+    "source_path": "paper/paper116.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  },
+  {
+    "id": "plastic",
+    "file": "plastic.jpg",
+    "label": "plastic \u00b7 TrashNet test example",
+    "source_path": "plastic/plastic164.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  },
+  {
+    "id": "trash",
+    "file": "trash.jpg",
+    "label": "trash \u00b7 TrashNet test example",
+    "source_path": "trash/trash30.jpg",
+    "license": "MIT; Gary Thung and Mindy Yang"
+  }
+]
