@@ -9,7 +9,7 @@ python3.12 -m venv .venv
 # Open http://127.0.0.1:8813
 ```
 
-Alternatively, after choosing a Python 3.12 environment, run `./launch.sh`. It creates a local .venv and installs runtime requirements when absent. On Windows use `.venv\Scripts\python.exe` in place of `.venv/bin/python` and launch app.py directly.
+Alternatively, after choosing a Python 3.12 environment, run `sh launch.sh`. It creates a local .venv and installs runtime requirements when absent. On Windows use `.venv\Scripts\python.exe` in place of `.venv/bin/python` and launch app.py directly.
 
 The source ZIP excludes pretrained backbones and COCO photos. Control fixtures work without models. For real inference, install conversion dependencies and download/export official weights:
 
