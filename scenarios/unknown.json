@@ -1,0 +1,28 @@
+[
+  {
+    "op": "sensors",
+    "values": {
+      "camera_valid": true,
+      "sensor_valid": true,
+      "actuator_ok": true,
+      "jam": false,
+      "obstruction": false,
+      "person_obstruction": false,
+      "fill": 20,
+      "weight": 100
+    }
+  },
+  {
+    "op": "reset_fault"
+  },
+  {
+    "op": "item",
+    "probabilities": {
+      "cardboard": 0.2,
+      "glass": 0.2,
+      "metal": 0.2,
+      "paper": 0.2,
+      "plastic": 0.2
+    }
+  }
+]
