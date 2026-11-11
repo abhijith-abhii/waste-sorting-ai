@@ -1,0 +1,9 @@
+stateDiagram-v2
+ [*] --> IDLE
+ IDLE --> REVIEW: unknown or mixed or full bin
+ IDLE --> MOVING: accepted class and healthy sensors
+ IDLE --> FAULT: invalid sensors
+ MOVING --> IDLE: acknowledgement counts once
+ MOVING --> FAULT: jam or timeout or invalid sensors
+ FAULT --> REVIEW: explicit reset
+ REVIEW --> MOVING: new accepted item

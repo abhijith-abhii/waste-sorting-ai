@@ -1,0 +1,135 @@
+{
+  "title": "Smart waste sorting and bin monitoring",
+  "kind": "waste",
+  "intro": "A frozen MobileNetV3-small feature extractor and a trained linear classifier recognize cardboard, glass, metal, paper and plastic. Confidence rejection, mixed-material flags and bin checks can route an item to review. A disposal is counted only after actuator acknowledgement; jams, stale sensors and timeouts stop the simulated mechanism.",
+  "scope": "Raspberry Pi targeted, desktop simulation tested. No Pi, real sensor, electrical power, camera timing, motor or physical safety validation was performed. This is an AI-assisted personal engineering project; it does not establish professional seniority or independent authorship.",
+  "policies": [
+    "IDLE accepts a new item only with valid five-class probabilities, configured confidence and margin, and healthy capacity sensors.",
+    "Unknown, mixed or full-bin inputs enter REVIEW. Fill >=90% or weight >=2000 g inhibits routing.",
+    "MOVING counts exactly once on acknowledgement. Virtual acknowledgement occurs after one simulated second; manual acknowledgement is also available.",
+    "Jam, invalid sensors, capacity becoming full, or a three-second timeout enters FAULT before acknowledgement. Reset returns to REVIEW. Restart never automatically resumes motion."
+  ],
+  "model": "Training used 1457 known-class images, 478 known validation images and 452 known test images. Unknown-proxy trash counts are 39 validation and 21 test; 77 train-bucket trash images were unused. SHA256 groups exact duplicates into fixed roughly 60/20/20 buckets. A 576-feature frozen ImageNet MobileNetV3-small backbone feeds StandardScaler and balanced L2 multinomial logistic regression. Only the scaler and linear head were fitted on training data. C in {0.01, 0.1, 1} and rejection settings were selected on validation. Frozen C=0.01, threshold=0.5, margin=0.0. No CNN fine-tuning or training from scratch occurred.",
+  "tradeoff": "Known-class accuracy rose from 62.17% to 90.27%, a 28.10 percentage-point gain (45.20% relative). The feature extractor costs more computation than a color histogram. The selected rejection rule recognized only 4 of 21 unknown-proxy images, or 19.05%. A confident prediction cannot establish purity or suitability for automatic disposal.",
+  "limitations": "TrashNet contains mostly isolated objects and is not representative of dirty mixed waste streams. Exact duplicates are grouped, but physical-object/session identifiers are unavailable, so near-duplicate leakage cannot be excluded. Trash is a narrow proxy for unfamiliar items. In 60 mixed-image composites, only 16 were rejected. Dirt, resampling and black masks are synthetic stress probes, not physical crushing, dirt or hidden contamination measurements.",
+  "metrics": [
+    {
+      "metric": "Known material accuracy",
+      "baseline": 62.16814159292036,
+      "final": 90.2654867256637,
+      "unit": "percent",
+      "scope": "452 held-out known images; HSV linear baseline vs frozen MobileNet features + trained linear head",
+      "absolute_change": 28.09734513274335,
+      "relative_change_percent": 45.195729537366525
+    },
+    {
+      "metric": "Known material macro F1",
+      "baseline": 0.6170227419836671,
+      "final": 0.9007643507399559,
+      "unit": "score",
+      "scope": "Same 452 images; five material classes; forced-choice before rejection",
+      "absolute_change": 0.28374160875628873,
+      "relative_change_percent": 45.98559979233302
+    },
+    {
+      "metric": "Unsafe scripted disposals",
+      "baseline": 50,
+      "final": 0,
+      "unit": "cases",
+      "scope": "60 scripted score/fault cases; 10 normal acknowledgements",
+      "absolute_change": -50,
+      "relative_change_percent": -100.0
+    }
+  ],
+  "timing": {
+    "sample": "cardboard",
+    "count": 30,
+    "cold_request_ms": 11.615624651312828,
+    "median_ms": 5.3459585178643465,
+    "p95_ms": 5.723115126602352,
+    "throughput_requests_s": 185.72918826256395,
+    "wall_seconds": 0.16152550000697374,
+    "cpu_seconds": 0.31830099999999995,
+    "cpu_core_equivalents": 1.9705928784387452,
+    "process_rss_bytes": 364445696,
+    "samples_ms": [
+      5.2809580229222775,
+      5.419749766588211,
+      5.551708396524191,
+      5.507375113666058,
+      5.2787503227591515,
+      5.402208771556616,
+      5.233041010797024,
+      5.361000075936317,
+      5.418834276497364,
+      5.268584005534649,
+      5.121458321809769,
+      5.2241249941289425,
+      5.265667103230953,
+      5.029583815485239,
+      5.170500371605158,
+      5.355624947696924,
+      5.356292240321636,
+      5.03487465903163,
+      4.982749931514263,
+      5.03287510946393,
+      5.389958154410124,
+      5.707417149096727,
+      5.520917009562254,
+      7.111041806638241,
+      5.412791855633259,
+      5.336292088031769,
+      5.735958926379681,
+      5.517957732081413,
+      5.257333163172007,
+      5.232249852269888
+    ],
+    "scope": "Flask test-client full request including disk image decode, inference, annotation JPEG, controller, SQLite commit and JSON serialization. No network/browser time; same image repeated; cumulative process RSS with other loaded models."
+  },
+  "panels": [
+    [
+      "Input and detections",
+      "Uploaded image/recorded frame with boxes, or a clearly labeled synthetic scene."
+    ],
+    [
+      "Observation",
+      "Controller state, distinct from detector confidence."
+    ],
+    [
+      "Count and actuator",
+      "Candidate count/free slots/acknowledged disposals; virtual output only."
+    ],
+    [
+      "Last inference",
+      "Measured model/preprocessing time on this host; not Pi latency."
+    ],
+    [
+      "Latest decision and sensors",
+      "Reason, validity and current virtual sensor values."
+    ],
+    [
+      "Observation history",
+      "Count versus explicit simulation time; duplicate timestamps may overlap."
+    ],
+    [
+      "Experiment controls",
+      "Fault scenarios, manual requests, threshold and applicable interval controls."
+    ],
+    [
+      "Event ledger",
+      "Latest 30 rendered events from a 500-event export window; database retains all events."
+    ],
+    [
+      "Recorded benchmarks",
+      "Frozen historical results and JSON export; not recomputed by dashboard controls."
+    ]
+  ],
+  "demo": "Choose paper and Run AI on sample. Sort latest AI result then advance one second to count acknowledgement. Click unknown to route scripted uncertainty to REVIEW; full to inhibit sorting; jam to enter FAULT. Restore devices and Clear fault to return to review; a new item requires a new decision.",
+  "bom": "Raspberry Pi 4 or 5, USB camera and fixed illumination, small bench servo, distance sensor for fill, load cell with a calibrated USB serial bridge, position/limit switch and jam input, separate regulated servo supply.",
+  "wiring": "Example BCM allocation: fill trigger GPIO23 and echo GPIO24 through suitable level conversion; servo signal GPIO18; jam input GPIO17; position acknowledgement GPIO27. Weight readings arrive on a USB serial bridge at 115200 baud as one calibrated gram value per line. Direct HX711 support is not implemented.",
+  "resume": [
+    "Trained a five-class waste classifier using frozen MobileNetV3 features and a balanced linear head on 1457 training images, with separate validation and test splits.",
+    "Raised held-out known-material accuracy from 62.17% to 90.27% on 452 images against a color-feature baseline; reported unknown rejection separately at 4/21.",
+    "Implemented acknowledged sorting, duplicate-event handling and full-bin, jam and timeout recovery; eliminated 50 unsafe disposals in a 60-case scripted comparison."
+  ]
+}

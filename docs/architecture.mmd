@@ -1,0 +1,9 @@
+flowchart LR
+ Camera-->Inference
+ Inference-->Controller
+ Sensors-->Controller
+ Clock-->Controller
+ Controller-->VirtualOutput
+ Controller-->SQLite
+ Dashboard-->Controller
+ Controller-->Dashboard
