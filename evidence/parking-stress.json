@@ -1,0 +1,285 @@
+{
+  "records": [
+    {
+      "image_id": 109441,
+      "variant": "original",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 0,
+      "latency_ms": 52.7362497523427
+    },
+    {
+      "image_id": 109441,
+      "variant": "shadow",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 0,
+      "latency_ms": 51.26570863649249
+    },
+    {
+      "image_id": 109441,
+      "variant": "partial",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.37816674262285
+    },
+    {
+      "image_id": 109441,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.972916789352894
+    },
+    {
+      "image_id": 338986,
+      "variant": "original",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.422207590192556
+    },
+    {
+      "image_id": 338986,
+      "variant": "shadow",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.85412519797683
+    },
+    {
+      "image_id": 338986,
+      "variant": "partial",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 0,
+      "latency_ms": 47.91929107159376
+    },
+    {
+      "image_id": 338986,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.42416616156697
+    },
+    {
+      "image_id": 301135,
+      "variant": "original",
+      "vehicle_candidates": 3,
+      "pedestrian_candidates": 9,
+      "latency_ms": 48.40937489643693
+    },
+    {
+      "image_id": 301135,
+      "variant": "shadow",
+      "vehicle_candidates": 3,
+      "pedestrian_candidates": 8,
+      "latency_ms": 48.57149999588728
+    },
+    {
+      "image_id": 301135,
+      "variant": "partial",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 6,
+      "latency_ms": 48.30962512642145
+    },
+    {
+      "image_id": 301135,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 9,
+      "latency_ms": 48.54412516579032
+    },
+    {
+      "image_id": 280710,
+      "variant": "original",
+      "vehicle_candidates": 3,
+      "pedestrian_candidates": 8,
+      "latency_ms": 48.174749594181776
+    },
+    {
+      "image_id": 280710,
+      "variant": "shadow",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 7,
+      "latency_ms": 48.612999729812145
+    },
+    {
+      "image_id": 280710,
+      "variant": "partial",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 7,
+      "latency_ms": 48.247791826725006
+    },
+    {
+      "image_id": 280710,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 7,
+      "latency_ms": 48.297957982867956
+    },
+    {
+      "image_id": 469192,
+      "variant": "original",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.465707805007696
+    },
+    {
+      "image_id": 469192,
+      "variant": "shadow",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.466290812939405
+    },
+    {
+      "image_id": 469192,
+      "variant": "partial",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.201208002865314
+    },
+    {
+      "image_id": 469192,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.699500039219856
+    },
+    {
+      "image_id": 183246,
+      "variant": "original",
+      "vehicle_candidates": 4,
+      "pedestrian_candidates": 0,
+      "latency_ms": 53.23333386331797
+    },
+    {
+      "image_id": 183246,
+      "variant": "shadow",
+      "vehicle_candidates": 5,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.8618747331202
+    },
+    {
+      "image_id": 183246,
+      "variant": "partial",
+      "vehicle_candidates": 4,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.787625040858984
+    },
+    {
+      "image_id": 183246,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 0,
+      "latency_ms": 47.90229117497802
+    },
+    {
+      "image_id": 281759,
+      "variant": "original",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 7,
+      "latency_ms": 48.75762481242418
+    },
+    {
+      "image_id": 281759,
+      "variant": "shadow",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 8,
+      "latency_ms": 48.819124698638916
+    },
+    {
+      "image_id": 281759,
+      "variant": "partial",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 6,
+      "latency_ms": 48.246375285089016
+    },
+    {
+      "image_id": 281759,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 5,
+      "latency_ms": 49.04629196971655
+    },
+    {
+      "image_id": 192670,
+      "variant": "original",
+      "vehicle_candidates": 4,
+      "pedestrian_candidates": 6,
+      "latency_ms": 49.02495909482241
+    },
+    {
+      "image_id": 192670,
+      "variant": "shadow",
+      "vehicle_candidates": 3,
+      "pedestrian_candidates": 6,
+      "latency_ms": 48.875208012759686
+    },
+    {
+      "image_id": 192670,
+      "variant": "partial",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 4,
+      "latency_ms": 48.29037515446544
+    },
+    {
+      "image_id": 192670,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 5,
+      "latency_ms": 48.12929127365351
+    },
+    {
+      "image_id": 126110,
+      "variant": "original",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.81325038149953
+    },
+    {
+      "image_id": 126110,
+      "variant": "shadow",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 1,
+      "latency_ms": 49.181750044226646
+    },
+    {
+      "image_id": 126110,
+      "variant": "partial",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.498500138521194
+    },
+    {
+      "image_id": 126110,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 0,
+      "pedestrian_candidates": 0,
+      "latency_ms": 48.594582825899124
+    },
+    {
+      "image_id": 365655,
+      "variant": "original",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.418333288282156
+    },
+    {
+      "image_id": 365655,
+      "variant": "shadow",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.95908385515213
+    },
+    {
+      "image_id": 365655,
+      "variant": "partial",
+      "vehicle_candidates": 2,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.81220776587725
+    },
+    {
+      "image_id": 365655,
+      "variant": "reflection_blend",
+      "vehicle_candidates": 1,
+      "pedestrian_candidates": 1,
+      "latency_ms": 48.57258312404156
+    }
+  ],
+  "limitations": "Ten transformed source photos; candidate counts only. No reannotated visibility truth; not accuracy or real reflection performance."
+}

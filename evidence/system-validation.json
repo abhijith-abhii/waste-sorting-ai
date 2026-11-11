@@ -1,0 +1,27 @@
+[
+  {
+    "scenario": "full",
+    "status": "REVIEW",
+    "passed": true
+  },
+  {
+    "scenario": "jam",
+    "status": "FAULT",
+    "passed": true
+  },
+  {
+    "scenario": "unknown",
+    "status": "REVIEW",
+    "passed": true
+  },
+  {
+    "check": "actual neural-network inference",
+    "sample": "cardboard",
+    "passed": true
+  },
+  {
+    "check": "two recorded synthetic video frames then end-of-file disconnect",
+    "passed": true,
+    "scope": "I/O and inference path only; not recognition or tracking accuracy"
+  }
+]

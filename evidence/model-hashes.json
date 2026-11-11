@@ -1,0 +1,22 @@
+[
+  {
+    "file": "detector-640.onnx",
+    "bytes": 10701563,
+    "sha256": "261a67b5d82247acc2bda075a8a68c7ccdceb2a25c0bb6102c88a022dc4aa613"
+  },
+  {
+    "file": "mobilenet_features.onnx",
+    "bytes": 3711281,
+    "sha256": "2698ee3255e6efab636e765734c6ca986aafef4b86d489bcd54f1b14eecee6c2"
+  },
+  {
+    "file": "yolo11n.onnx",
+    "bytes": 10701563,
+    "sha256": "261a67b5d82247acc2bda075a8a68c7ccdceb2a25c0bb6102c88a022dc4aa613"
+  },
+  {
+    "file": "detector-320.onnx",
+    "bytes": 10575559,
+    "sha256": "f7030cfa980f67ee93ed0a8f647caca67b2c67d228c3134cbbd9ce3f1fbeca94"
+  }
+]

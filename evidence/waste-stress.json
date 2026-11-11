@@ -1,0 +1,2432 @@
+{
+  "summary": {
+    "mixed_composite": {
+      "count": 60,
+      "correct": 16,
+      "rejected": 16
+    },
+    "original": {
+      "count": 60,
+      "correct": 44,
+      "rejected": 5
+    },
+    "partial_visibility": {
+      "count": 60,
+      "correct": 37,
+      "rejected": 11
+    },
+    "resampled_compression": {
+      "count": 60,
+      "correct": 42,
+      "rejected": 6
+    },
+    "synthetic_dirt": {
+      "count": 60,
+      "correct": 40,
+      "rejected": 12
+    }
+  },
+  "records": [
+    {
+      "path": "cardboard/cardboard159.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.784005880355835,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard159.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.7121298909187317,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard159.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.8233850598335266,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard159.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.5470311045646667,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard159.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.9256604313850403,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard190.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "plastic",
+      "confidence": 0.7241141200065613,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard190.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "unknown",
+      "confidence": 0.4375997483730316,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard190.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "plastic",
+      "confidence": 0.9186853766441345,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard190.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "unknown",
+      "confidence": 0.45000365376472473,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard190.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.4722164571285248,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard386.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.8595736026763916,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard386.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.8301371335983276,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard386.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.8013839721679688,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard386.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.783412754535675,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard386.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.7726058959960938,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard207.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9865800738334656,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard207.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9709153771400452,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard207.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9929498434066772,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard207.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9749680161476135,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard207.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.6091588139533997,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard303.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.998320996761322,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard303.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9854194521903992,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard303.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9979958534240723,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard303.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9783958792686462,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard303.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.932483971118927,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard331.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.649970531463623,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard331.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.7553055286407471,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard331.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.7033898830413818,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard331.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.704297661781311,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard331.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.39463797211647034,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard197.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.6448280215263367,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard197.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "unknown",
+      "confidence": 0.47224563360214233,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard197.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.5270124673843384,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard197.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "unknown",
+      "confidence": 0.4571734070777893,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard197.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.6633398532867432,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard160.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9957309365272522,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard160.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9535703659057617,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard160.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9936156272888184,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard160.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.964382529258728,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard160.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.9273713231086731,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard400.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9968326687812805,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard400.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9803377389907837,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard400.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.996665894985199,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard400.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.9767304062843323,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard400.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.935458779335022,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard286.jpg",
+      "variant": "original",
+      "truth": "cardboard",
+      "prediction": "unknown",
+      "confidence": 0.49922189116477966,
+      "accepted": false
+    },
+    {
+      "path": "cardboard/cardboard286.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.7067270874977112,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard286.jpg",
+      "variant": "resampled_compression",
+      "truth": "cardboard",
+      "prediction": "cardboard",
+      "confidence": 0.7226677536964417,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard286.jpg",
+      "variant": "partial_visibility",
+      "truth": "cardboard",
+      "prediction": "paper",
+      "confidence": 0.5183138847351074,
+      "accepted": true
+    },
+    {
+      "path": "cardboard/cardboard286.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.8263832330703735,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass469.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9895626902580261,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass469.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9568421244621277,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass469.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.980933427810669,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass469.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9859902858734131,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass469.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.6261789202690125,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass244.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9775243997573853,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass244.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7908430099487305,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass244.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9575759768486023,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass244.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.40866780281066895,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass244.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.9933411478996277,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass433.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.40421292185783386,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass433.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.3955667316913605,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass433.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "metal",
+      "confidence": 0.5081526637077332,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass433.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.3614042401313782,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass433.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.843830943107605,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass3.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.6034234166145325,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass3.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.2634985148906708,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass3.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.35319089889526367,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass3.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "paper",
+      "confidence": 0.6345096826553345,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass3.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.7548065781593323,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass315.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.9104394316673279,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass315.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.8000431060791016,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass315.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.890106737613678,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass315.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.6822637915611267,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass315.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.5518965125083923,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass453.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.5106175541877747,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass453.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "metal",
+      "confidence": 0.6081270575523376,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass453.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.5846849083900452,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass453.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.6708698272705078,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass453.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.8677805662155151,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass490.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.863229513168335,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass490.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "unknown",
+      "confidence": 0.49053868651390076,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass490.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7089299559593201,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass490.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "paper",
+      "confidence": 0.5092679262161255,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass490.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.2864057421684265,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass484.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7058612704277039,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass484.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7228140234947205,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass484.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7313572764396667,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass484.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.8407567739486694,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass484.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.5925607085227966,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass66.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7161089777946472,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass66.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "plastic",
+      "confidence": 0.5877487063407898,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass66.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.6466856002807617,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass66.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "plastic",
+      "confidence": 0.6828923225402832,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass66.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.47447580099105835,
+      "accepted": false
+    },
+    {
+      "path": "glass/glass358.jpg",
+      "variant": "original",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.5251646041870117,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass358.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.7928757667541504,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass358.jpg",
+      "variant": "resampled_compression",
+      "truth": "glass",
+      "prediction": "metal",
+      "confidence": 0.6083592772483826,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass358.jpg",
+      "variant": "partial_visibility",
+      "truth": "glass",
+      "prediction": "glass",
+      "confidence": 0.6292414665222168,
+      "accepted": true
+    },
+    {
+      "path": "glass/glass358.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.6936034560203552,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal74.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9653245806694031,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal74.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9780659079551697,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal74.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9551975727081299,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal74.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5505797863006592,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal74.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8113869428634644,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal143.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.6413522362709045,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal143.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.8077800273895264,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal143.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.6449189782142639,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal143.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5911715030670166,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal143.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.37097764015197754,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal127.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.99339359998703,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal127.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9803617000579834,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal127.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.990882933139801,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal127.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9807159900665283,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal127.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.8835552930831909,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal46.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.995537519454956,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal46.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9482885599136353,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal46.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9856390953063965,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal46.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.7124785780906677,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal46.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.5559519529342651,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal29.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9868598580360413,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal29.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9638646841049194,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal29.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9870712161064148,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal29.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.8394456505775452,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal29.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.8475732803344727,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal134.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9062274694442749,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal134.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.851799726486206,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal134.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.8508743047714233,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal134.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "paper",
+      "confidence": 0.7225967645645142,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal134.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.43943193554878235,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal40.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5768221020698547,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal40.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.8746960759162903,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal40.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "unknown",
+      "confidence": 0.46917879581451416,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal40.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5810522437095642,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal40.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.49102210998535156,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal380.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9930475354194641,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal380.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9058049321174622,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal380.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9856858849525452,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal380.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.7710328102111816,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal380.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.8770936727523804,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal44.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.7900114059448242,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal44.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.9268701672554016,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal44.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.8366387486457825,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal44.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5981838703155518,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal44.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.5133134722709656,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal259.jpg",
+      "variant": "original",
+      "truth": "metal",
+      "prediction": "unknown",
+      "confidence": 0.2928508520126343,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal259.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "metal",
+      "prediction": "metal",
+      "confidence": 0.5522193312644958,
+      "accepted": true
+    },
+    {
+      "path": "metal/metal259.jpg",
+      "variant": "resampled_compression",
+      "truth": "metal",
+      "prediction": "unknown",
+      "confidence": 0.37068191170692444,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal259.jpg",
+      "variant": "partial_visibility",
+      "truth": "metal",
+      "prediction": "unknown",
+      "confidence": 0.48945894837379456,
+      "accepted": false
+    },
+    {
+      "path": "metal/metal259.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.40624719858169556,
+      "accepted": false
+    },
+    {
+      "path": "paper/paper116.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9802785515785217,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper116.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "metal",
+      "confidence": 0.8541306257247925,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper116.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.7819643020629883,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper116.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8795881271362305,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper116.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.7097153663635254,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper27.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.968784511089325,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper27.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.6779319643974304,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper27.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9635686278343201,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper27.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.77531498670578,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper27.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8248668313026428,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper458.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9713358879089355,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper458.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9080982208251953,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper458.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9562195539474487,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper458.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.887767493724823,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper458.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.7667115330696106,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper583.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.913375735282898,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper583.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.5898038744926453,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper583.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.806033730506897,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper583.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.879168689250946,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper583.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.6057982444763184,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper120.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.6542370915412903,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper120.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "unknown",
+      "confidence": 0.46325886249542236,
+      "accepted": false
+    },
+    {
+      "path": "paper/paper120.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.6997304558753967,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper120.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8813310861587524,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper120.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.959135115146637,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper88.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.935614287853241,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper88.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.670817494392395,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper88.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9013668298721313,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper88.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.916401743888855,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper88.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.5514280200004578,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper173.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.658836305141449,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper173.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "cardboard",
+      "confidence": 0.5112537741661072,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper173.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.74642014503479,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper173.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.7559579610824585,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper173.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.44334444403648376,
+      "accepted": false
+    },
+    {
+      "path": "paper/paper347.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8025482296943665,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper347.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.508764386177063,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper347.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.6039646863937378,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper347.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8346953392028809,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper347.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.5702616572380066,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper252.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.9346687197685242,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper252.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.5838838815689087,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper252.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8899235725402832,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper252.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8370642066001892,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper252.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9663726091384888,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper362.jpg",
+      "variant": "original",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8752440810203552,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper362.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.822114884853363,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper362.jpg",
+      "variant": "resampled_compression",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.8750156760215759,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper362.jpg",
+      "variant": "partial_visibility",
+      "truth": "paper",
+      "prediction": "paper",
+      "confidence": 0.6839482188224792,
+      "accepted": true
+    },
+    {
+      "path": "paper/paper362.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8028340935707092,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic164.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.4861092269420624,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic164.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8790481686592102,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic164.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "glass",
+      "confidence": 0.5056233406066895,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic164.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.5317197442054749,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic164.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.6681533455848694,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic467.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.8465661406517029,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic467.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.6675212383270264,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic467.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.833629846572876,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic467.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.7589029669761658,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic467.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.29291340708732605,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic345.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8216049671173096,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic345.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.45908123254776,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic345.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.7485782504081726,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic345.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "glass",
+      "confidence": 0.5022964477539062,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic345.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.40790507197380066,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic362.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8368992805480957,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic362.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.6392154097557068,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic362.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.743283212184906,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic362.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.49912628531455994,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic362.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.6146897077560425,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic82.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8808566331863403,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic82.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8109421730041504,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic82.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.7032350897789001,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic82.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.48653551936149597,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic82.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.45051485300064087,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic117.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.6527515053749084,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic117.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.35912731289863586,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic117.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.4267936646938324,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic117.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "unknown",
+      "confidence": 0.3507547974586487,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic117.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8103696703910828,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic430.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.9371048212051392,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic430.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8196216821670532,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic430.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.9319711327552795,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic430.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.9019927978515625,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic430.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.579811155796051,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic211.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.9881455898284912,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic211.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.8883303999900818,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic211.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.985988438129425,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic211.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.9437072277069092,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic211.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.8233799934387207,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic133.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.7864069938659668,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic133.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.5908767580986023,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic133.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.7006787657737732,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic133.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "plastic",
+      "confidence": 0.6875895857810974,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic133.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.4089747965335846,
+      "accepted": false
+    },
+    {
+      "path": "plastic/plastic398.jpg",
+      "variant": "original",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.6645375490188599,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic398.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.5521225333213806,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic398.jpg",
+      "variant": "resampled_compression",
+      "truth": "plastic",
+      "prediction": "metal",
+      "confidence": 0.8269785046577454,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic398.jpg",
+      "variant": "partial_visibility",
+      "truth": "plastic",
+      "prediction": "glass",
+      "confidence": 0.5743457674980164,
+      "accepted": true
+    },
+    {
+      "path": "plastic/plastic398.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.3034621775150299,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash30.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.5589227080345154,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash30.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.3541707992553711,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash30.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.6678381562232971,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash30.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.7536277770996094,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash30.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.8305437564849854,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash23.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9421032667160034,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash23.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.6698572635650635,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash23.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9180282354354858,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash23.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9499884247779846,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash23.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.5058493614196777,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash130.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.6295844912528992,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash130.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.32346823811531067,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash130.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.4759034812450409,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash130.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.47105997800827026,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash130.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.8275772929191589,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash7.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.8355783224105835,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash7.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.5410362482070923,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash7.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.7603251338005066,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash7.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.5916879177093506,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash7.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.41953885555267334,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash53.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.26796242594718933,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash53.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.3653101325035095,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash53.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.2729744613170624,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash53.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.6156297326087952,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash53.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.9247437119483948,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash74.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9244135022163391,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash74.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.3989381194114685,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash74.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8316504955291748,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash74.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8143868446350098,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash74.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "cardboard",
+      "confidence": 0.8861294388771057,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash11.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.8011400103569031,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash11.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.926323652267456,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash11.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.5358474254608154,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash11.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.4364704191684723,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash11.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.5137670040130615,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash81.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9883356094360352,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash81.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.792343258857727,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash81.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9695873260498047,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash81.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9202438592910767,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash81.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "glass",
+      "confidence": 0.8238193988800049,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash84.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9656454920768738,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash84.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.8097083568572998,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash84.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9412195682525635,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash84.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.9478103518486023,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash84.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "paper",
+      "confidence": 0.649599552154541,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash78.jpg",
+      "variant": "original",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.663736879825592,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash78.jpg",
+      "variant": "synthetic_dirt",
+      "truth": "unknown",
+      "prediction": "metal",
+      "confidence": 0.6633464694023132,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash78.jpg",
+      "variant": "resampled_compression",
+      "truth": "unknown",
+      "prediction": "plastic",
+      "confidence": 0.7682604789733887,
+      "accepted": true
+    },
+    {
+      "path": "trash/trash78.jpg",
+      "variant": "partial_visibility",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.34772324562072754,
+      "accepted": false
+    },
+    {
+      "path": "trash/trash78.jpg",
+      "variant": "mixed_composite",
+      "truth": "unknown",
+      "prediction": "unknown",
+      "confidence": 0.42236167192459106,
+      "accepted": false
+    }
+  ],
+  "limitations": "Synthetic pixel transformations, not real dirty/crushed/mixed-object validation. Resampling is only a distortion proxy, not physical crushing. Mixed composite target is review. Frozen thresholds; no retuning."
+}

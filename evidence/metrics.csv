@@ -1,0 +1,4 @@
+metric,baseline,final,unit,scope,absolute_change,relative_change_percent
+Known material accuracy,62.16814159292036,90.2654867256637,percent,452 held-out known images; HSV linear baseline vs frozen MobileNet features + trained linear head,28.09734513274335,45.195729537366525
+Known material macro F1,0.6170227419836671,0.9007643507399559,score,Same 452 images; five material classes; forced-choice before rejection,0.28374160875628873,45.98559979233302
+Unsafe scripted disposals,50,0,cases,60 scripted score/fault cases; 10 normal acknowledgements,-50,-100.0

@@ -1,0 +1,496 @@
+{
+  "project": "waste-sorting-ai",
+  "status": "Raspberry Pi targeted, desktop simulation tested. No Pi, real sensor, electrical power, camera timing, motor or physical safety validation was performed. This is an AI-assisted personal engineering project; it does not establish professional seniority or independent authorship.",
+  "summary": [
+    {
+      "metric": "Known material accuracy",
+      "baseline": 62.16814159292036,
+      "final": 90.2654867256637,
+      "unit": "percent",
+      "scope": "452 held-out known images; HSV linear baseline vs frozen MobileNet features + trained linear head",
+      "absolute_change": 28.09734513274335,
+      "relative_change_percent": 45.195729537366525
+    },
+    {
+      "metric": "Known material macro F1",
+      "baseline": 0.6170227419836671,
+      "final": 0.9007643507399559,
+      "unit": "score",
+      "scope": "Same 452 images; five material classes; forced-choice before rejection",
+      "absolute_change": 0.28374160875628873,
+      "relative_change_percent": 45.98559979233302
+    },
+    {
+      "metric": "Unsafe scripted disposals",
+      "baseline": 50,
+      "final": 0,
+      "unit": "cases",
+      "scope": "60 scripted score/fault cases; 10 normal acknowledgements",
+      "absolute_change": -50,
+      "relative_change_percent": -100.0
+    }
+  ],
+  "environment": "macOS-26.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "request_timing": {
+    "sample": "cardboard",
+    "count": 30,
+    "cold_request_ms": 11.615624651312828,
+    "median_ms": 5.3459585178643465,
+    "p95_ms": 5.723115126602352,
+    "throughput_requests_s": 185.72918826256395,
+    "wall_seconds": 0.16152550000697374,
+    "cpu_seconds": 0.31830099999999995,
+    "cpu_core_equivalents": 1.9705928784387452,
+    "process_rss_bytes": 364445696,
+    "samples_ms": [
+      5.2809580229222775,
+      5.419749766588211,
+      5.551708396524191,
+      5.507375113666058,
+      5.2787503227591515,
+      5.402208771556616,
+      5.233041010797024,
+      5.361000075936317,
+      5.418834276497364,
+      5.268584005534649,
+      5.121458321809769,
+      5.2241249941289425,
+      5.265667103230953,
+      5.029583815485239,
+      5.170500371605158,
+      5.355624947696924,
+      5.356292240321636,
+      5.03487465903163,
+      4.982749931514263,
+      5.03287510946393,
+      5.389958154410124,
+      5.707417149096727,
+      5.520917009562254,
+      7.111041806638241,
+      5.412791855633259,
+      5.336292088031769,
+      5.735958926379681,
+      5.517957732081413,
+      5.257333163172007,
+      5.232249852269888
+    ],
+    "scope": "Flask test-client full request including disk image decode, inference, annotation JPEG, controller, SQLite commit and JSON serialization. No network/browser time; same image repeated; cumulative process RSS with other loaded models."
+  },
+  "control": {
+    "baseline_unsafe_disposals": 50,
+    "final_unsafe_disposals": 0,
+    "normal_disposals_acknowledged": 10,
+    "cases": 60,
+    "scope": "Scripted classifier scores and fault events; separate from real classifier accuracy"
+  },
+  "model": {
+    "color_baseline": {
+      "accuracy": 0.6216814159292036,
+      "macro_f1": 0.6170227419836671,
+      "confusion_matrix": [
+        [
+          76,
+          6,
+          6,
+          5,
+          3
+        ],
+        [
+          1,
+          45,
+          9,
+          13,
+          13
+        ],
+        [
+          5,
+          15,
+          39,
+          18,
+          10
+        ],
+        [
+          2,
+          18,
+          9,
+          69,
+          10
+        ],
+        [
+          4,
+          4,
+          7,
+          13,
+          52
+        ]
+      ],
+      "per_class": {
+        "cardboard": {
+          "precision": 0.8636363636363636,
+          "recall": 0.7916666666666666,
+          "f1-score": 0.8260869565217391,
+          "support": 96.0
+        },
+        "glass": {
+          "precision": 0.5113636363636364,
+          "recall": 0.5555555555555556,
+          "f1-score": 0.5325443786982249,
+          "support": 81.0
+        },
+        "metal": {
+          "precision": 0.5571428571428572,
+          "recall": 0.4482758620689655,
+          "f1-score": 0.4968152866242038,
+          "support": 87.0
+        },
+        "paper": {
+          "precision": 0.5847457627118644,
+          "recall": 0.6388888888888888,
+          "f1-score": 0.6106194690265486,
+          "support": 108.0
+        },
+        "plastic": {
+          "precision": 0.5909090909090909,
+          "recall": 0.65,
+          "f1-score": 0.6190476190476191,
+          "support": 80.0
+        },
+        "accuracy": 0.6216814159292036,
+        "macro avg": {
+          "precision": 0.6215595421527624,
+          "recall": 0.6168773946360153,
+          "f1-score": 0.6170227419836671,
+          "support": 452.0
+        },
+        "weighted avg": {
+          "precision": 0.6266067337866873,
+          "recall": 0.6216814159292036,
+          "f1-score": 0.6219780633089064,
+          "support": 452.0
+        }
+      },
+      "C": 0.1
+    },
+    "frozen_mobilenet": {
+      "accuracy": 0.9026548672566371,
+      "macro_f1": 0.9007643507399559,
+      "confusion_matrix": [
+        [
+          89,
+          0,
+          1,
+          5,
+          1
+        ],
+        [
+          0,
+          70,
+          8,
+          0,
+          3
+        ],
+        [
+          2,
+          7,
+          77,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          100,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          3,
+          72
+        ]
+      ],
+      "per_class": {
+        "cardboard": {
+          "precision": 0.9368421052631579,
+          "recall": 0.9270833333333334,
+          "f1-score": 0.9319371727748691,
+          "support": 96.0
+        },
+        "glass": {
+          "precision": 0.875,
+          "recall": 0.8641975308641975,
+          "f1-score": 0.8695652173913043,
+          "support": 81.0
+        },
+        "metal": {
+          "precision": 0.8651685393258427,
+          "recall": 0.8850574712643678,
+          "f1-score": 0.875,
+          "support": 87.0
+        },
+        "paper": {
+          "precision": 0.9174311926605505,
+          "recall": 0.9259259259259259,
+          "f1-score": 0.9216589861751152,
+          "support": 108.0
+        },
+        "plastic": {
+          "precision": 0.9113924050632911,
+          "recall": 0.9,
+          "f1-score": 0.9056603773584906,
+          "support": 80.0
+        },
+        "accuracy": 0.9026548672566371,
+        "macro avg": {
+          "precision": 0.9011668484625683,
+          "recall": 0.9004528522775649,
+          "f1-score": 0.9007643507399559,
+          "support": 452.0
+        },
+        "weighted avg": {
+          "precision": 0.9028218279624207,
+          "recall": 0.9026548672566371,
+          "f1-score": 0.9026941413510504,
+          "support": 452.0
+        }
+      },
+      "C": 0.01
+    },
+    "rejection": {
+      "accuracy_including_unknown": 0.8266384778012685,
+      "macro_f1_including_unknown": 0.7457355842232531,
+      "unknown_recall": 0.19047619047619047,
+      "known_acceptance": 0.9247787610619469,
+      "accepted_known_accuracy": 0.9258373205741627,
+      "confusion_matrix": [
+        [
+          89,
+          0,
+          0,
+          5,
+          0,
+          2
+        ],
+        [
+          0,
+          62,
+          5,
+          0,
+          1,
+          13
+        ],
+        [
+          0,
+          7,
+          70,
+          0,
+          0,
+          10
+        ],
+        [
+          4,
+          0,
+          1,
+          99,
+          3,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          1,
+          67,
+          8
+        ],
+        [
+          0,
+          2,
+          2,
+          7,
+          6,
+          4
+        ]
+      ],
+      "unknown_count": 21,
+      "known_count": 452
+    },
+    "environment": "macOS-26.2-arm64-arm-64bit",
+    "training_seconds": 0.16685183299705386,
+    "feature_extraction_seconds": 11.053097042255104,
+    "feature_latency_ms": {
+      "median": 3.2983124256134033,
+      "p95": 3.4300704952329397,
+      "count": 2524
+    },
+    "counts": {
+      "test": {
+        "cardboard": 96,
+        "glass": 81,
+        "metal": 87,
+        "paper": 108,
+        "plastic": 80,
+        "trash": 21
+      },
+      "validation": {
+        "cardboard": 76,
+        "glass": 108,
+        "metal": 76,
+        "paper": 111,
+        "plastic": 107,
+        "trash": 39
+      },
+      "train": {
+        "cardboard": 231,
+        "glass": 312,
+        "metal": 246,
+        "paper": 375,
+        "plastic": 293,
+        "trash": 0
+      },
+      "unused_unknown": {
+        "cardboard": 0,
+        "glass": 0,
+        "metal": 0,
+        "paper": 0,
+        "plastic": 0,
+        "trash": 77
+      }
+    },
+    "tuning": [
+      {
+        "model": "color_baseline",
+        "C": 0.01,
+        "validation_macro_f1": 0.6436001903371606
+      },
+      {
+        "model": "color_baseline",
+        "C": 0.1,
+        "validation_macro_f1": 0.6697137864952533
+      },
+      {
+        "model": "color_baseline",
+        "C": 1.0,
+        "validation_macro_f1": 0.6487299983561666
+      },
+      {
+        "model": "frozen_mobilenet",
+        "C": 0.01,
+        "validation_macro_f1": 0.8900375338188752
+      },
+      {
+        "model": "frozen_mobilenet",
+        "C": 0.1,
+        "validation_macro_f1": 0.8897638628189721
+      },
+      {
+        "model": "frozen_mobilenet",
+        "C": 1.0,
+        "validation_macro_f1": 0.8892610574845339
+      }
+    ],
+    "rejection_tuning": [
+      {
+        "threshold": 0.5,
+        "margin": 0.0,
+        "validation_macro_f1_with_unknown": 0.76264692021339
+      },
+      {
+        "threshold": 0.5,
+        "margin": 0.1,
+        "validation_macro_f1_with_unknown": 0.7571622875470911
+      },
+      {
+        "threshold": 0.5,
+        "margin": 0.2,
+        "validation_macro_f1_with_unknown": 0.7594111208214241
+      },
+      {
+        "threshold": 0.6,
+        "margin": 0.0,
+        "validation_macro_f1_with_unknown": 0.7527967664701932
+      },
+      {
+        "threshold": 0.6,
+        "margin": 0.1,
+        "validation_macro_f1_with_unknown": 0.7527967664701932
+      },
+      {
+        "threshold": 0.6,
+        "margin": 0.2,
+        "validation_macro_f1_with_unknown": 0.7527967664701932
+      },
+      {
+        "threshold": 0.7,
+        "margin": 0.0,
+        "validation_macro_f1_with_unknown": 0.7413507331350719
+      },
+      {
+        "threshold": 0.7,
+        "margin": 0.1,
+        "validation_macro_f1_with_unknown": 0.7413507331350719
+      },
+      {
+        "threshold": 0.7,
+        "margin": 0.2,
+        "validation_macro_f1_with_unknown": 0.7413507331350719
+      },
+      {
+        "threshold": 0.8,
+        "margin": 0.0,
+        "validation_macro_f1_with_unknown": 0.6885736856690857
+      },
+      {
+        "threshold": 0.8,
+        "margin": 0.1,
+        "validation_macro_f1_with_unknown": 0.6885736856690857
+      },
+      {
+        "threshold": 0.8,
+        "margin": 0.2,
+        "validation_macro_f1_with_unknown": 0.6885736856690857
+      },
+      {
+        "threshold": 0.9,
+        "margin": 0.0,
+        "validation_macro_f1_with_unknown": 0.5682811391348468
+      },
+      {
+        "threshold": 0.9,
+        "margin": 0.1,
+        "validation_macro_f1_with_unknown": 0.5682811391348468
+      },
+      {
+        "threshold": 0.9,
+        "margin": 0.2,
+        "validation_macro_f1_with_unknown": 0.5682811391348468
+      }
+    ],
+    "frozen_config": {
+      "C": 0.01,
+      "threshold": 0.5,
+      "margin": 0.0,
+      "seed": 42,
+      "training": "L2 multinomial logistic regression, balanced class weights, max_iter 2000; frozen ImageNet backbone",
+      "known_classes": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic"
+      ],
+      "split_seed": "split-20261111"
+    },
+    "limitations": [
+      "Image-level split with exact-duplicate grouping; physical-object and acquisition-session identities unavailable, so near-duplicate/scene leakage cannot be ruled out.",
+      "Trash is an imperfect unknown proxy, not a comprehensive out-of-distribution test.",
+      "TrashNet isolated objects differ from dirty mixed waste streams. No field accuracy or Pi latency measured."
+    ]
+  },
+  "protocol": "Training used 1457 known-class images, 478 known validation images and 452 known test images. Unknown-proxy trash counts are 39 validation and 21 test; 77 train-bucket trash images were unused. SHA256 groups exact duplicates into fixed roughly 60/20/20 buckets. A 576-feature frozen ImageNet MobileNetV3-small backbone feeds StandardScaler and balanced L2 multinomial logistic regression. Only the scaler and linear head were fitted on training data. C in {0.01, 0.1, 1} and rejection settings were selected on validation. Frozen C=0.01, threshold=0.5, margin=0.0. No CNN fine-tuning or training from scratch occurred.",
+  "limitations": "TrashNet contains mostly isolated objects and is not representative of dirty mixed waste streams. Exact duplicates are grouped, but physical-object/session identifiers are unavailable, so near-duplicate leakage cannot be excluded. Trash is a narrow proxy for unfamiliar items. In 60 mixed-image composites, only 16 were rejected. Dirt, resampling and black masks are synthetic stress probes, not physical crushing, dirt or hidden contamination measurements.",
+  "tradeoff": "Known-class accuracy rose from 62.17% to 90.27%, a 28.10 percentage-point gain (45.20% relative). The feature extractor costs more computation than a color histogram. The selected rejection rule recognized only 4 of 21 unknown-proxy images, or 19.05%. A confident prediction cannot establish purity or suitability for automatic disposal."
+}

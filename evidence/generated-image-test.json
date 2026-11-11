@@ -1,0 +1,66 @@
+{
+  "source": "Built-in image generation tool; one independently prompted synthetic image per project",
+  "prompt": "Use case: photorealistic-natural. Asset type: synthetic waste classification stress-test input. Generate one realistic square overhead photograph of a discarded crushed clear plastic drink bottle with a dirty paper label still attached, next to a torn piece of brown cardboard and a crumpled aluminum foil wrapper, all partly overlapping on a neutral gray sorting tray. Realistic dirt and texture, mixed materials intentionally ambiguous. No branding, text, logos, bounding boxes, graphics or captions. This synthetic image will test manual-review behavior; it is not a product advertisement.",
+  "sha256": "44bcc9744a297ccef578100f61a6a068b25e34531579cda03fa85798f0feff0f",
+  "reviewed_reference": "Human-reviewed synthetic scene: bottle, paper label, cardboard and foil overlap; expected operational outcome is manual review, not one pure material class.",
+  "actual_model_result": {
+    "probabilities": {
+      "cardboard": 0.8212676644325256,
+      "glass": 0.0004656464443542063,
+      "metal": 0.00889197364449501,
+      "paper": 0.16298897564411163,
+      "plastic": 0.006385677959769964
+    },
+    "latency_ms": 4.824291914701462,
+    "model": "Frozen ImageNet MobileNetV3 + trained linear head",
+    "source": "real neural-network features and trained classifier"
+  },
+  "interpretation": "Top class cardboard, score 0.821; threshold-only accepts this mixed scene. Explicit mixed-material flag is required for deterministic review.",
+  "scope": "Exploratory generated input, n=1 per project, no statistical accuracy claim, no training or threshold tuning, excluded from headline held-out benchmarks.",
+  "control_probe": {
+    "model_only": {
+      "threshold": 0.5,
+      "margin": 0,
+      "state": "MOVING",
+      "target": "cardboard",
+      "started": 0,
+      "item_id": "item-1",
+      "reason": "Classification accepted; waiting for actuator acknowledgement",
+      "totals": {
+        "cardboard": 0,
+        "glass": 0,
+        "metal": 0,
+        "paper": 0,
+        "plastic": 0
+      },
+      "rejected": 0,
+      "contamination": 0,
+      "seen": [
+        "item-1"
+      ]
+    },
+    "operator_marks_mixed": {
+      "threshold": 0.5,
+      "margin": 0,
+      "state": "REVIEW",
+      "target": "manual",
+      "started": 0,
+      "item_id": "item-2",
+      "reason": "Uncertain or mixed item; manual review",
+      "totals": {
+        "cardboard": 1,
+        "glass": 0,
+        "metal": 0,
+        "paper": 0,
+        "plastic": 0
+      },
+      "rejected": 1,
+      "contamination": 0,
+      "seen": [
+        "item-1",
+        "item-2"
+      ]
+    },
+    "note": "A separate explicit mixed-material flag inhibits routing; the classifier itself does not establish material purity."
+  }
+}

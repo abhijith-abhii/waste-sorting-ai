@@ -1,0 +1,70 @@
+{
+  "environment": "macOS-26.2-arm64-arm-64bit",
+  "classroom": {
+    "baseline": {
+      "occupied_lights_off_seconds": 1200,
+      "empty_lights_on_seconds": 600,
+      "lights_on_seconds": 1200,
+      "estimated_energy_Wh": 40.0,
+      "scope": "3600 simulated seconds; 120 W fixed lighting load assumed; no measured power"
+    },
+    "grace_confirmation": {
+      "occupied_lights_off_seconds": 600,
+      "empty_lights_on_seconds": 600,
+      "lights_on_seconds": 1800,
+      "estimated_energy_Wh": 60.0,
+      "scope": "3600 simulated seconds; 120 W fixed lighting load assumed; no measured power"
+    },
+    "uncertainty_hold": {
+      "occupied_lights_off_seconds": 900,
+      "empty_lights_on_seconds": 900,
+      "lights_on_seconds": 1800,
+      "estimated_energy_Wh": 60.0,
+      "scope": "3600 simulated seconds; 120 W fixed lighting load assumed; no measured power"
+    },
+    "event_checks": {
+      "occupied_lights_off_seconds": 900,
+      "empty_lights_on_seconds": 0,
+      "lights_on_seconds": 900,
+      "estimated_energy_Wh": 30.0,
+      "scope": "3600 simulated seconds; 120 W fixed lighting load assumed; no measured power"
+    },
+    "combined": {
+      "occupied_lights_off_seconds": 0,
+      "empty_lights_on_seconds": 1800,
+      "lights_on_seconds": 3600,
+      "estimated_energy_Wh": 120.0,
+      "scope": "3600 simulated seconds; 120 W fixed lighting load assumed; no measured power"
+    }
+  },
+  "parking": {
+    "baseline_false_free_slot_seconds": 15,
+    "final_false_free_slot_seconds": 0,
+    "baseline_occupancy_accuracy": 0.9375,
+    "final_accuracy_on_decided_slots": 1.0,
+    "final_decision_coverage": 0.8333333333333334,
+    "total_slot_seconds": 480,
+    "unsafe_closure_requests_baseline": 14,
+    "unsafe_closure_requests_final": 0,
+    "closure_cases": 30,
+    "scope": "Synthetic camera/proximity readings, not real parking-space detection accuracy"
+  },
+  "waste": {
+    "baseline_unsafe_disposals": 50,
+    "final_unsafe_disposals": 0,
+    "normal_disposals_acknowledged": 10,
+    "cases": 60,
+    "scope": "Scripted classifier scores and fault events; separate from real classifier accuracy"
+  },
+  "tracking": {
+    "frames": 80,
+    "ground_truth_tracks": 1,
+    "naive_sum_of_frame_detections": 80,
+    "tracked_unique_ids": 1,
+    "expected_entries": 1,
+    "counted_entries": 1,
+    "expected_exits": 0,
+    "counted_exits": 0,
+    "scope": "Synthetic boxes and known trajectory; not real-video tracking validation"
+  }
+}

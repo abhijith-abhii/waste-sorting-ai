@@ -1,0 +1,362 @@
+[
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "normal",
+    "final_state": "IDLE",
+    "counted": 1,
+    "reason": "Actuator acknowledged; disposal counted once"
+  },
+  {
+    "case": "unknown",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Uncertain or mixed item; manual review"
+  },
+  {
+    "case": "full",
+    "final_state": "REVIEW",
+    "counted": 0,
+    "reason": "Full bin or excessive item weight; manual review"
+  },
+  {
+    "case": "sensor_fault",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Invalid or stale fill/weight sensor"
+  },
+  {
+    "case": "jam",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  },
+  {
+    "case": "timeout",
+    "final_state": "FAULT",
+    "counted": 0,
+    "reason": "Jam, sensor failure or actuator timeout; motion stopped"
+  }
+]

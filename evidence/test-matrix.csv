@@ -1,0 +1,9 @@
+requirement,behavior,evidence,status,scope
+R01,State transitions and uncertainty,tests/test_core.py,passed,deterministic simulation
+R02,Persistence restart duplicate events failed commits,tests/test_core.py,passed,SQLite on host
+R03,Invalid values stale observations and manual requests,tests/test_core.py,passed,software inputs
+R04,HTTP boundaries and exports,tests/test_web.py,passed,Flask test client
+R05,Actual model inference and recorded-video EOF,evidence/system-validation.json,passed,two synthetic video frames; not recognition accuracy
+R06,Model comparison,evidence/results.json,completed,held-out images; see data card
+R07,Difficult visual cases,evidence/waste-stress.json,exploratory,synthetic transforms; real scene coverage pending
+R08,Physical target wiring timing and power,docs/hardware.md,pending,no hardware owned

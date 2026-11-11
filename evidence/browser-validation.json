@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-11",
+  "browser": "Codex in-app browser",
+  "checks": [
+    "Real sample inference returned boxes or material probabilities",
+    "Classroom stationary -> occupied with lights on",
+    "Classroom poster -> uncertain with lights on",
+    "Parking obstruction -> HOLD; restart fault recovered through clear-evidence guard",
+    "Waste real paper classification -> acknowledged disposal",
+    "Waste jam -> FAULT and STOPPED; scenario overlay clearly labeled fixture",
+    "Recorded benchmark cards visible; session export tested through Flask"
+  ],
+  "scope": "Desktop browser interaction; hardware and real-world recognition safety remain unvalidated"
+}
