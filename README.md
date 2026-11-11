@@ -46,7 +46,7 @@ Raspberry Pi targeted, desktop simulation tested. No Pi, real sensor, electrical
 
 56 shared regression cases passed. Real inference and browser scenarios were checked separately. The benchmark and application clocks are separate: inference time is measured on the host; control traces use explicit simulation time. No production adoption, physical safety certification, Pi latency or measured energy is claimed.
 
-Project contact: Abhijith Viswanathan · abhijithviswanathan03@gmail.com. Intended GitHub owner: abhijith-abhii. Repository publication requires that account's write access; no remote repository is claimed by this package.
+Project contact: Abhijith Viswanathan · abhijithviswanathan03@gmail.com. Repository: https://github.com/abhijith-abhii/waste-sorting-ai.
 
 ## Generated stress input and additional graphs
 
